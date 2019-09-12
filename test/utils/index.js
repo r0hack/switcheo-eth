@@ -40,7 +40,7 @@ function decodeInput(input) {
 const PrivateKeyProvider = require('truffle-privatekey-provider')
 const provider = new PrivateKeyProvider(
     process.env.controlKey,
-    'https://mainnet.infura.io/v3/' + process.env.infuraKey
+    'https://ropsten.infura.io/v3/' + process.env.infuraKey
 )
 
 const web3 = new Web3(provider)
@@ -54,7 +54,7 @@ const { DOMAIN_SEPARATOR, TYPEHASHES, ZERO_ADDR,
         ONE_ADDR, ETHER_ADDR } = require('../constants')
 
 async function getBroker() {
-    return new web3.eth.Contract(BrokerV2.abi, '0x5a86Fd48ADDB990bf06A55fa68331E751Bb19890')
+    return new web3.eth.Contract(BrokerV2.abi, '0x7CFbeEa553784500394c878D4f4f79d3B79B9d41')
 }
 
 async function getTokenList() { return await TokenList.deployed() }
@@ -471,8 +471,11 @@ async function networkTrade({ offers, matches, operator, gas }, { privateKeys },
     const hashes = []
     const { addresses, addressMap } = constructAddressMap({ offers, operator })
 
+    console.log('addresses', addresses)
+    console.log('addressMap', addressMap)
     for (let i = 0; i < offers.length; i++) {
         const offer = offers[i]
+        console.log('offer', privateKeys[offer.maker])
         const { v, r, s } = await signOffer(offer, privateKeys[offer.maker])
         const data = { ...offer, user: offer.maker, addressMap, operator, v }
         const { dataA, dataB } = constructTradeData(data)
@@ -483,6 +486,7 @@ async function networkTrade({ offers, matches, operator, gas }, { privateKeys },
 
     for (let i = 0; i < matches.length; i++) {
         const match = matches[i]
+        console.log('match', match)
         const value = bn(match.offerIndex).or(shl(match.tradeProvider, 8))
                                           .or(shl(addressMap[operator][match.surplusAssetId], 16))
                                           .or(shl(match.data, 24))
@@ -510,7 +514,7 @@ async function networkTrade({ offers, matches, operator, gas }, { privateKeys },
         gas: gas.toString(),
         gasPrice: web3.utils.toWei('20', 'gwei'),
         nonce: nonce.toString(),
-        chainId: 1
+        chainId: 3
     }
 
     const signedTxn = await web3.eth.accounts.signTransaction(transaction, privateKeys[operator])

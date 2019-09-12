@@ -13,7 +13,7 @@ const { utils } = web3
 
 const KNC_ADDR = '0x4E470dc7321E84CA96FcAEDD0C8aBCebbAEB68C6'
 
-const operator = '0xA093017e86854387C3562d8626340d5760660a73'
+const operator = '0x325085628e40801f5d2c249a2f91ea74bc8d73c3'
 
 const privateKeys = {}
 privateKeys[operator] = process.env.controlKey
@@ -159,9 +159,9 @@ async function kyberswap_eth_to_tokens() {
     const offers = [{
         maker,
         offerAssetId: ETHER_ADDR,
-        offerAmount: formatAmount(0.1, 18), // 0.1 ETH
+        offerAmount: formatAmount(1, 17), // 0.1 ETH
         wantAssetId: KNC_ADDR,
-        wantAmount: formatAmount(10, 18), // 10 KNC
+        wantAmount: formatAmount(30, 18), // 30 KNC
         feeAssetId: KNC_ADDR,
         feeAmount: formatAmount(1, 18), // 1 KNC
         nonce: getRandomNonce()
@@ -171,7 +171,7 @@ async function kyberswap_eth_to_tokens() {
         surplusAssetId: KNC_ADDR,
         data: 0, // index of fee-sharing wallet address in addresses
         tradeProvider: 0, // kyberswap
-        takeAmount: formatAmount(0.1, 18) // take 0.1 ETH
+        takeAmount: formatAmount(1, 17) // take 0.1 ETH
     }]
 
     const result = await exchange.networkTrade({ offers, matches, operator, gas: '1000000' }, { privateKeys })

@@ -2,7 +2,7 @@
   "dependencies": {
     "openzeppelin-solidity": "^1.12.0",
     "truffle-hdwallet-provider": "^1.0.6",
-    "truffle-privatekey-provider": "^0.1.0"
+    "truffle-privatekey-provider": "^1.4.0"
   },
   "devDependencies": {
     "abi-decoder": "^1.2.0",

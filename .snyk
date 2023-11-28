@@ -1,0 +1,1301 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - truffle-privatekey-provider > web3 > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-privatekey-provider > web3 > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-providers > web3-utils >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-privatekey-provider > web3 > web3-net > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-utils >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-privatekey-provider > web3 > web3-eth > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core-helpers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-providers >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-method >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core-method >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-providers > web3-core-method
+          > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-providers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-providers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-providers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-providers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-net > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-privatekey-provider > web3 > web3-eth > web3-net > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-net > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-privatekey-provider > web3 > web3-shh > web3-net > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-eth-accounts > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-helpers >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core-helpers >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-method >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-method > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-method >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core-method >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-providers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-providers >
+          web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-iban > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-iban >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-helpers >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-helpers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-core-method > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-core-method >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-providers >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-providers >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-abi > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-abi >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-core-method > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-core-method >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-providers >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-net >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-net >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-net >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-providers >
+          web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-providers > web3-core-method
+          > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-providers >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-eth-accounts > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-eth-accounts > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-providers >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-providers >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-providers >
+          web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-core >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-net >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-net >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-net >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal >
+          web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-eth-abi > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-eth-abi > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-abi > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-abi > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-accounts > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-accounts > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal > web3-eth-accounts > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal >
+          web3-eth-accounts > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-net > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-net > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-accounts > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal >
+          web3-eth-accounts > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-net > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-net >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-net > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-net >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-net > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-net >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-method > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-method > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-method > web3-core-helpers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-method >
+          web3-core-helpers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-providers > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-providers > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-helpers > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers >
+          web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-method >
+          web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-method > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-method >
+          web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core-method >
+          web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-net >
+          web3-core-helpers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-net >
+          web3-core-helpers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-net >
+          web3-core-helpers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-method > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-core >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal >
+          web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core >
+          web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-core >
+          web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core >
+          web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core >
+          web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-core > web3-providers >
+          web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-eth-accounts > web3-core-method > web3-core-subscriptions >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-providers >
+          web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-providers >
+          web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-providers >
+          web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-core >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-helpers > web3-core > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-helpers > web3-core > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers > web3-core > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers >
+          web3-core > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal > web3-eth-accounts > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal >
+          web3-eth-accounts > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-net > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-net >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-net > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-net >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-net > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-net >
+          web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-helpers > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers >
+          web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-method >
+          web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-method > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-method >
+          web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core-method >
+          web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > web3-eth-accounts > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > web3-eth-accounts > web3-core > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-helpers > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-method > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-method > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-method > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-method >
+          web3-core-helpers > web3-core > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core > web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core > web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core > web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-providers > web3-utils > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > web3-providers > web3-utils > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core > web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core > web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core > web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-method >
+          web3-core > web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-method > web3-core > web3-providers > web3-core-helpers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-method >
+          web3-core > web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core-method >
+          web3-core > web3-providers > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > web3-eth-accounts > web3-core-helpers > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-core >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-core >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-core-helpers > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal >
+          web3-core-helpers > web3-core > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-core-helpers >
+          web3-core > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core-method > web3-core-subscriptions >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-personal >
+          web3-eth-accounts > web3-core-method > web3-core-subscriptions >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth-personal > web3-net > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth-personal > web3-net >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-net > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-net >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-shh > web3-net > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-shh > web3-net >
+          web3-providers > web3-core-method > web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core > web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core > web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core > web3-providers > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core > web3-providers > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > web3-core > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > web3-core > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-helpers > web3-core > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > web3-core > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-helpers > web3-core > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-helpers > web3-core > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-method > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > web3-eth-accounts > web3-core-method > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-helpers > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-method > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-method > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3 > web3-net > web3-core-method > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-net > web3-core-method >
+          web3-core-helpers > web3-core > web3-providers > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > async > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > async > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-method > web3-core > web3-providers > web3-core-helpers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-method > web3-core > web3-providers > web3-core-helpers >
+          lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core > web3-providers > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core > web3-providers > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core > web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core > web3-providers > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > web3-core > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract > web3-core-helpers > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > web3-core > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-core-helpers > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-core-helpers > web3-core > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens >
+          web3-eth-contract > web3-eth-accounts > web3-core-method >
+          web3-core-subscriptions > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify
+          > babel-core > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          babel-types > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          babel-traverse > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          babel-template > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-generator > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify
+          > babel-core > babel-generator > lodash
+    - truffle-privatekey-provider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-register > lodash:
+        patched: '2023-11-28T16:16:26.366Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify
+          > babel-core > babel-register > lodash

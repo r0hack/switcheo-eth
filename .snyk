@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - truffle-privatekey-provider > web3 > web3-providers > web3-core-helpers > lodash:
+        patched: '2026-01-11T08:41:54.654Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-privatekey-provider > web3 > web3-providers >
+          web3-core-helpers > lodash
